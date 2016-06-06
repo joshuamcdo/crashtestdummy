@@ -30,7 +30,7 @@ in the source distribution for its full text.
 
 static void printVersionFlag() {
    fputs("htop " VERSION " - " COPYRIGHT "\n"
-         "Released under the GNU GPL.\n\n",
+         "Released under the GNU GPL.\n\nThis is being used as a test for another project and should be considered not for public consumption\nThe real project located a https://github.com/hishamhm/htop\n\n",
          stdout);
    exit(0);
 }
